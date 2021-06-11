@@ -18,7 +18,7 @@ export function list (x,y){
 // 预加载 prefetch  等其他资源加载完毕，等浏览器空闲时偷偷加载资源（更灵活，不需要紧急使用的资源时使用，慎用，大资源）   
 // 正常加载可以认为是并行加载文件（同一时间加载多个文件）
 document.getElementById('btn').onclick = function (){
-    import(/* webpackChunkName : 'test' , webpackPrefetch:true */ './test').then(({list,account})=>{
+    import(/* webpackChunkName : 'test'*/ './test').then(({list,account})=>{
         console.log(list(2,3))
     })
 }

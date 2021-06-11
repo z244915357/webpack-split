@@ -1,0 +1,1 @@
+(self.webpackChunkwebpacktest=self.webpackChunkwebpacktest||[]).push([[411],{411:function(n,e,t){"use strict";t.r(e),t.d(e,{list:function(){return s}});var c=t(652),o=t.n(c);function s(n,e){return n+e}console.log(o()),console.log("我要进行懒加载~")},652:function(n,e,t){n.exports=t(794)(755)}}]);
